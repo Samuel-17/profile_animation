@@ -1,0 +1,58 @@
+.circle {
+  width: 25rem;
+  height: 10rem;
+  border-radius: 15rem;
+  position: relative;
+  overflow: hidden;
+
+  border: 1px solid #00000027;
+  box-shadow: inset 1.7px -2px 7px rgba(0, 0, 0, 0.536);
+  position: relative;
+
+  background-size: cover;
+  background-position: center;
+}
+
+.day:before {
+  content: "";
+  width: 40%;
+  height: 100%;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  box-shadow: 1.7px -2px 7px rgba(0, 0, 0, 0.536);
+  left: 0 5s;
+  margin-left: 2px;
+  background: rgba(255, 255, 0, 0.855);
+  box-shadow: inset 1px 10px 100px orange;
+
+  cursor: pointer;
+}
+
+.night:before {
+  content: "";
+  width: 40%;
+  height: 100%;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  box-shadow: 1.7px -2px 7px rgba(0, 0, 0, 0.536);
+  right: 0;
+  margin-left: 2px;
+  background: url("https://static.vecteezy.com/ti/vetor-gratis/p1/6507348-lua-no-espaco-cartoon-icone-ilustracao-ciencia-natureza-icone-conceito-isolado-premium-plano-cartoon-estilo-vetor.jpg");
+  background-size: 320%;
+  background-position: center;
+  cursor: pointer;
+}
+
+.back_day {
+  background: url("https://img.freepik.com/vetores-premium/ilustracao-em-vetor-de-ceu-azul-com-fundo-de-nuvens-brancas_8589-482.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.back_night {
+  background: url("https://thumbs.dreamstime.com/t/desenhos-animados-animados-crescent-moon-com-noite-estrelado-73570164.jpg");
+  background-size: cover;
+  background-position: center;
+}
